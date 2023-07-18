@@ -6,6 +6,26 @@
     font-family: 'Work Sans', sans-serif;
     --used-color: #FF42A5;
     --para-color: #534C64;
+    --btn-color: #4EC5F7;
+    /* box-sizing: border-box; */
+}
+
+.special-color {
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 12px 30px;
+    color: white;
+    background-color: var(--used-color);
+    border: none;
+}
+
+.blue-btn {
+    background-color: var(--btn-color);
 }
 
 /* common section end  */
@@ -17,9 +37,9 @@ header {
 }
 
 nav {
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 30px 0;
+    /* max-width: 980px;
+    margin: 0 auto; */
+    padding: 30px 150px;
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
@@ -73,11 +93,129 @@ nav .fa-brands .fa-youtube {
     font-size: 18px;
 }
 
+
+/* banner section start  */
+
+
+.banner-container {
+    /* max-width: 980px; */
+    /* margin: 0 auto; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.banner-container .banner-content {
+    padding: 50px 280px 50px 150px;
+    /* padding-left: 150px;
+    padding-right: 280px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid blue; */
+    background: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    /* background-position: ; */
+    background-size: cover;
+}
+
+.banner-content .goat-heading {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.banner-content h2 {
+    font-weight: 600;
+}
+
+.banner-content .download-icon {
+    margin: 10px 0;
+}
+
+.banner-content .fa-solid {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.banner-content p {
+    color: var(--para-color);
+    font-size: 10px;
+}
+
+.banner-img {
+    width: 30%;
+    padding-right: 150px;
+}
+.banner-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.button-div {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+/* banner section end */
+
 /* header section end */
 
 
 
 /* main section start */
+
+.we-are-gamer-container {
+    padding: 60px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.we-are-gamer-container .gamer-img {
+    padding-left: 50px;
+    width: 70%;
+    /* border: 1px solid red; */
+}
+
+.gamer-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.gamer-content {
+    /* border: 1px solid burlywood; */
+    text-align: end;
+    width: 60%;
+}
+
+.gamer-p1 {
+    /* border: 1px solid black; */
+    color: var(--para-color);
+    font-size: 13px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.gamer-content button {
+    margin-bottom: 20px;
+}
+
+.gamer-content h5 {
+    font-weight: 400;
+}
+
+.unleash-para {
+    font-size: 20px;
+    font-weight: 700;
+    color: #534C64;
+}
+
 /* main section end */
 
 

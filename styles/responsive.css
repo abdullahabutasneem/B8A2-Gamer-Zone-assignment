@@ -11,10 +11,12 @@
 
 /* mobile device start  */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     /* header section start */
 
     nav {
+        padding: 30px 0;
+        border: 1px solid red;
         max-width: 400px;
         margin: 0 auto;
         flex-direction: column;
@@ -30,6 +32,98 @@
         margin-top: 15px;
     }
 
+    .follow-us {
+        width: 250px;
+    }
+
+    .banner-container {
+        border: 1px solid red;
+        max-width: 400px;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        /* align-items: center; */
+    }
+
+    .banner-container .banner-content {
+        border: 1px solid blue;
+        margin: 0 auto;
+        padding: 30px 0;
+        width: 60%;
+    }
+    .banner-content{
+        /* text-align: center; */
+    }
+
+    .banner-content .goat-heading {
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    .banner-content h2 {
+        font-size: 20px;
+    }
+    .banner-content p {
+        font-size: 8px;
+    }
+    .button-div {
+        margin-top: 30px;
+        display: flex;
+        gap: 10px;
+    }
+    .btn {
+        border-radius: 25px;
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    .banner-img {
+        margin: 0 auto;
+        width: 50%;
+        border: 1px solid black;
+        text-align: center;
+        /* padding: 10px 15px; */
+    }
+
+    .banner-img img {
+        width: 80%;
+        display: block;
+        border: 2px solid black;
+        margin: 0 auto;
+        /* width: 100%; */
+    }
+
+    .we-are-gamer-container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between; */
+        flex-direction: column;
+    }
+
+    .we-are-gamer-container .gamer-img {
+        padding-left: 0;
+        width: 80%;
+        /* border: 1px solid red; */
+    }
+
+    .gamer-content {
+        /* border: 1px solid burlywood; */
+        text-align: center;
+        /* width: 60%; */
+    }
+
+    .gamer-p1 {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .unleash-para {
+        font-size: 16px;
+    }
+
     /* header section end */
 }
 
@@ -38,10 +132,10 @@
 
 /* medium device start  */
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
+/* @media screen and (min-width: 576px) and (max-width: 768px) {
     nav {
         max-width: 600px;
     }
-}
+} */
 
 /* medium device end */
