@@ -8,3 +8,40 @@
 
 /* footer section start */
 /* footer section end */
+
+/* mobile device start  */
+
+@media screen and (max-width: 576px) {
+    /* header section start */
+
+    nav {
+        max-width: 400px;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-top: 15px;
+    }
+
+    /* header section end */
+}
+
+/* mobile device end */
+
+
+/* medium device start  */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    nav {
+        max-width: 600px;
+    }
+}
+
+/* medium device end */
