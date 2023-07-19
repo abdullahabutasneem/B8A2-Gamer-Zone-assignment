@@ -17,7 +17,7 @@
     nav {
         padding: 30px 0;
         border: 1px solid red;
-        max-width: 400px;
+        max-width: 390px;
         margin: 0 auto;
         flex-direction: column;
         align-items: center;
@@ -38,7 +38,7 @@
 
     .banner-container {
         border: 1px solid red;
-        max-width: 400px;
+        max-width: 390px;
         margin: 0 auto;
         flex-direction: column-reverse;
         /* align-items: center; */
@@ -47,8 +47,10 @@
     .banner-container .banner-content {
         border: 1px solid blue;
         margin: 0 auto;
-        padding: 30px 0;
-        width: 60%;
+        padding: 30px;
+        padding-left: 87px;
+        width: 50%;
+        /* text-align: center; */
     }
     .banner-content{
         /* text-align: center; */
@@ -78,8 +80,9 @@
     }
 
     .banner-img {
+        padding: 0 0;
         margin: 0 auto;
-        width: 50%;
+        width: 100%;
         border: 1px solid black;
         text-align: center;
         /* padding: 10px 15px; */
@@ -94,7 +97,7 @@
     }
 
     .we-are-gamer-container {
-        max-width: 400px;
+        max-width: 390px;
         margin: 0 auto;
         padding: 0;
         /* display: flex;
@@ -123,12 +126,22 @@
     .unleash-para {
         font-size: 16px;
     }
+
+    .funny-videos-container {
+        padding: 0 0;
+    }
     .funny-img-container {
+        /* border: 1px solid red; */
+        /* border: 1px solid tomato; */
+        max-width: 390px;
+        margin: 0 auto;
         grid-template-columns: repeat(1, 1fr);
+        place-items: center;
         gap: 8px;
     }
 
     .funny-img {
+        /* border: 1px solid blue; */
         width: 100%;
         height: 400px;
         cursor: pointer;
@@ -142,7 +155,113 @@
         height: 100%;
     }
 
+    .funny-img-container {
+        text-align: center;
+    }
+
     .funny-img-container .funny-img-des {
+        /* border: 1px solid green; */
+        /* text-align: center; */
+        margin: 10px auto 10px 0;
+        width: 250px;
+    }
+
+    .absolute-section-container {
+        padding: 0 0;
+        max-width: 390px;
+        margin: 0 auto;
+        margin-bottom: 90px;
+        flex-direction: column;
+    }
+    .absolute-content-store {
+        text-align: center;
+    }
+    .absolute-section-container .absolute-content p {
+        margin: 25px auto;
+        font-size: 14px;
+        text-align: center;
+        /* width: 70%; */
+    }
+
+    .absolute-img-container {
+        width: 90%;
+        /* border: 1px solid blue; */
+        position: relative;
+    }
+    
+
+    .absolute-img-container .main-img {
+        /* border: 1px solid red; */
+        width: 80%;
+        height: 90%;
+        text-align: end;
+    }
+    
+    .absolute-img-container .float-img {
+        position: absolute;
+        width: 45%;
+        height: 220px;
+        bottom: -70px;
+        left: 0;
+    }
+
+    .game-button-container {
+        max-width: 390px;
+        margin: 100px auto;
+        padding: 0;
+        gap: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .game-btn {
+        gap: 5px;
+    }
+
+    .footer-container {
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .ul1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .footer-container .ul1 li {
+        /* border: 1px solid yellow; */
+        text-align: center;
+        width: 70px;
+        font-size: 9px;
+        font-weight: 600;
+    }
+    
+    .social-icon {
+        display: flex;
+        gap: 30px;
+    }
+
+    .ul2 {
+        text-align: center;
+        display: grid;
+        /* place-items: center; */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .ul2 li {
+        width: 100px;
+    }
+
+    .footer-container p {
+        width: 160px;
+        display: block;
+        /* border: 1px solid red; */
+        font-size: 8px;
         text-align: center;
     }
 
@@ -158,9 +277,24 @@
     /* nav {
         max-width: 600px;
     } */
+    .btn {
+        font-size: 10px;
+    }
+
     .funny-img-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
+    }
+    .absolute-content-store {
+        /* display: inline-block; */
+        width: 320px;
+        /* text-align: end; */
+        /* border: 1px solid red; */
+    }
+    .absolute-img-container .float-img {
+        position: absolute;
+        width: 35%;
+        height: 150px;
     }
 }
 
