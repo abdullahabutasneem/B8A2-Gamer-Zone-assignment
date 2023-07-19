@@ -287,17 +287,17 @@ nav .fa-brands .fa-youtube {
     color: #F948B2;
     font-size: 14px;
     font-weight: 600;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    /* opacity: 0;
+    transition: opacity 0.3s ease; */
   }
 
-  .funny-img:hover .hover-div {
+  /* .funny-img:hover .hover-div {
     opacity: 1;
   }
 
   .funny-img:hover .hover-div p {
     opacity: 1;
-  }
+  } */
 
 
 /* funny videos end */
@@ -310,6 +310,8 @@ nav .fa-brands .fa-youtube {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .absolute-content-store {
@@ -366,6 +368,7 @@ nav .fa-brands .fa-youtube {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    /* border: 1px solid red; */
 }
 
 .game-button-container button {
