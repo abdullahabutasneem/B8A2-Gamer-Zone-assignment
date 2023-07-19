@@ -10,6 +10,13 @@
     /* box-sizing: border-box; */
 }
 
+.fas .fa-play {
+    border-radius: 50%;
+    background-color: black;
+    font-size: white;
+    padding: 5px;
+}
+
 .special-color {
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: transparent;
@@ -257,7 +264,34 @@ nav .fa-brands .fa-youtube {
     font-weight: 500;
 }
 
-.funny-img::before {
+.funny-img-card {
+    position: relative;
+}
+
+.hover-div p {
+    color: #F948B2;
+    font-size: 14px;
+    font-weight: 600;
+    /* opacity: 0;
+    transition: opacity 0.3s ease; */
+  }
+
+.funny-img:hover + .hover-div {
+    visibility: visible;
+}
+
+.hover-div {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+
+
+
+/* .funny-img::before {
     content: "";
     position: absolute;
     top: 0;
@@ -271,25 +305,16 @@ nav .fa-brands .fa-youtube {
 
 .funny-img:hover::before {
     opacity: 1;
-  }
+  } */
 
-  .hover-div {
+  /* .hover-div {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.3s ease;
-  }
-
-
-  .hover-div p {
-    color: #F948B2;
-    font-size: 14px;
-    font-weight: 600;
-    /* opacity: 0;
-    transition: opacity 0.3s ease; */
-  }
+  } */
 
   /* .funny-img:hover .hover-div {
     opacity: 1;
